@@ -69,10 +69,11 @@ li {
 }
 
 a {
-    font-family: 'Inter-Medium', sans-serif;
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
     color: var(--color-black);
     cursor: default;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {

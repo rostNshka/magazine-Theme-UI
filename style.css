@@ -587,3 +587,52 @@ h1, h2, h3, h4, h5, h6 {
         gap: 10px;
     }
 }
+
+.interview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    padding-top: 45px;
+}
+
+.bk-interview {
+    background-image: url("./images/book.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.data-tag-interview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.interview-title {
+    display: inline-block;
+    width: 26.8229vw;
+    font-size: min(77px, 4.0104vw);
+    line-height: 4.4271vw;
+    margin-bottom: 350px;
+}
+
+.interview-text {
+    display: inline-block;
+    width: 31.5104vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: min(22px, 1.1458vw);
+    padding-bottom: 45px;
+}
+
+@media (max-width: 1024px) {
+    .interview-title {
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .interview-title {
+        margin-bottom: 30px;
+    }
+}

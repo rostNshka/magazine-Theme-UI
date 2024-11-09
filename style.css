@@ -660,7 +660,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-hot-stuff h3 {
-    font-family: 'Inter-Medium', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: min(19px,1vw);
 }
 
@@ -728,4 +728,16 @@ h1, h2, h3, h4, h5, h6 {
     .hot-stuff {
         padding-bottom: 30px;
     }
+}
+
+.slogan {
+    padding-bottom: 100px;
+}
+
+.slogan h2 {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: min(3.6458vw, 70px);
+    border-block: var(--border);
+    margin-inline: auto;
+    text-align: center;
 }
